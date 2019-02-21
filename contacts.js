@@ -8,7 +8,7 @@ constructor (prenom, nom){
 };
 }
 
-// Fonction permetant d'afficher le menu dans la console
+// Fonction permettant d'afficher le menu dans la console
 function afficherMenu(){
     console.log("1: Afficher tous les contacts");
     console.log("2: Ajouter un nouveau contact");
@@ -22,7 +22,7 @@ function afficherMenu(){
     });
 }
 
-// Fonction permetant d'executer les instructions du menu
+// Fonction permettant d'executer les instructions du menu
 function choixOption(){
     let option = "";
     while (true){
